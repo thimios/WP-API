@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name: JSON REST API
+ * Plugin Name: JSON REST API, thimios' fork
  * Description: JSON-based REST API for WordPress, developed as part of GSoC 2013.
  * Author: Ryan McCue
  * Author URI: http://ryanmccue.info/
  * Version: 1.1.1
- * Plugin URI: https://github.com/rmccue/WP-API
+ * Plugin URI: https://github.com/thimios/WP-API
  */
 
 /**
