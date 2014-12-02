@@ -883,9 +883,9 @@ class WP_JSON_Posts {
 			return new WP_Error( 'json_post_invalid_id', __( 'Invalid post ID.' ), array( 'status' => 404 ) );
 		}
 
-		if ( ! $this->check_edit_permission( $post ) ) {
-			return new WP_Error( 'json_cannot_edit', __( 'Sorry, you cannot edit this post' ), array( 'status' => 403 ) );
-		}
+		//if ( ! $this->check_edit_permission( $post ) ) {
+		//	return new WP_Error( 'json_cannot_edit', __( 'Sorry, you cannot edit this post' ), array( 'status' => 403 ) );
+		//}
 
 		global $wpdb;
 		$table = _get_meta_table( 'post' );
